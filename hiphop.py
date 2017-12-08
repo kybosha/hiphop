@@ -6,4 +6,4 @@ url = "https://atlassian.hipchat.com/v2/room/1622654/notification?auth_token=hYM
 
 def message_write():
     r = requests.post(url, headers={"color":"green","message":now + "(yey)","notify":false,"message_format":"text"})
-    print r.status_code
+    print(r.status_code)
