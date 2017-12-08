@@ -7,7 +7,7 @@ app = Flask(__name__)
 def action():
     return "I am alive!"
 
-@app.route("/hit"):
+@app.route("/hit")
     hiphop.message_write()
 
 if __name__ == "__main__":
