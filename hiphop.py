@@ -3,7 +3,7 @@ import datetime
 
 #now = datetime.datetime.now()
 headers = {'Content-Type': 'application/json',}
-data = '{"color":"green","message":"My first notification (yey)","notify":false,"message_format":"text"}'
+data = '{"color":"green","message":"I love exquisite meat (notsureif)","notify":false,"message_format":"text"}'
 
 def message_write():
     """
