@@ -5,8 +5,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def action():
-    hiphop.message_write()
     return "I am alive!"
+
+@app.route("/hit"):
+    hiphop.message_write()
 
 if __name__ == "__main__":
     app.run()
