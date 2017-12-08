@@ -1,0 +1,16 @@
+{
+  "name": "HipHop",
+  "description": "Slovak",
+  "key": "mpac.gen.black-abbotts-cocoa-plum-for-bamboo-1512723933813",
+  "links": {
+    "homepage": "https://hiphpo.herokuapp.com",
+    "self": "https://hiphpo.herokuapp.com/atlassian-connect.json"
+  },
+  "capabilities": {
+    "hipchatApiConsumer": {
+      "scopes": [
+        "send_notification"
+      ]
+    }
+  }
+}
